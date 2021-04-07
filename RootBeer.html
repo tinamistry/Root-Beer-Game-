@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Root Beer Float</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="rootBeer.js"></script>
+</head>
+<body>
+<h1>Root Beer Float Maker</h1>
+<div class="container">
+    <div class="content">
+        <div class="flavors">
+            <div class="iceCreams">
+                <form>
+                    <fieldset>
+                        <legend>Ice Creams</legend>
+                        <input type="checkbox" id="vanilla" name="iceCream" value="vanilla" >
+                        <label for="vanilla">Vanilla</label><br>
+                        <input type="checkbox" id="chocolate" name="iceCream" value="chocolate">
+                        <label for="chocolate">Chocolate</label><br>
+                        <input type="checkbox" id="coffee" name="iceCream" value="coffee">
+                        <label for="coffee">Coffee</label>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="rootBeers">
+                <form>
+                    <fieldset>
+                        <legend>Root Beers</legend>
+                        <input type="radio" id="barqs" name="rootBeers" value="Barq's">
+                        <label for="barqs">Barq's</label><br>
+                        <input type="radio" id="aw" name="rootBeers" value="A&W">
+                        <label for="aw">A&W</label><br>
+                        <input type="radio" id="dads" name="rootBeers" value="Dad's">
+                         <label for="dads">Dad's</label><br>
+                        <input type="radio" id="ibc" name="rootBeers" value="IBC">
+                        <label for="ibc">IBC</label>
+                    </fieldset>
+                </form>
+             </div>
+         </div>
+        <div class="button">
+            <button onclick="float()">I'm ready to make my float!</button>
+        </div>
+        <div class="rec">
+            <p id="recipe" style="background:saddlebrown; ">
+            </p>
+         </div>
+    </div>
+
+    <div class="img">
+        <img src="rootBeerFloat.jpg" alt="RootBeer Float">
+    </div>
+
+</div>
+
+
+
+
+
+</div>
+</body>
+</html>

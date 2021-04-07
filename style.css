@@ -1,0 +1,26 @@
+.container{
+    display:flex;
+}
+.flavors{
+    display:flex;
+}
+.iceCreams{
+    margin: 10px;
+}
+.rootBeers{
+    margin:10px;
+}
+.img{
+    display:flex;
+}
+.button{
+    display:block;
+}
+.rec{
+    width: 200px;
+    height:250px;
+    color: white;
+    text-align: center;
+
+}
+
